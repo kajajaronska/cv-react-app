@@ -1,0 +1,49 @@
+/*****************************/
+/* FONTS */
+/*****************************/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap');
+
+
+/*****************************/
+/* VARIABLES */
+/*****************************/
+:root {
+    --sage: #e7f7ec;
+    --dark: #222623; 
+    --dark-blue: #1F2937;
+    --light-blue: #36455b;
+    --caramel: #D69461;
+    --white: #ffffff;
+    --font-2: 'Raleway', sans-serif;
+
+}
+
+
+/*****************************/
+/* GLOBAL RESET */
+/*****************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+  color: var(--dark-blue);
+}
+
+/*****************************/
+/* BODY */
+/*****************************/
+
+body {
+  background-color: var(--white);
+  font-family: var(--font-2);
+  font-size: 1.7rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

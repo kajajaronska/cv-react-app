@@ -1,0 +1,110 @@
+/*****************************/
+/* CONTAINER STYLING */
+/*****************************/
+.Container {
+    width: 55vw;
+    background-color: var(--sage);
+    padding: 3rem;
+    margin: 2rem;
+
+    border-radius: 10px;
+}
+
+.header {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.content {
+    /* display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.row {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    margin-left: 2rem;
+    list-style:circle;
+}
+
+
+/*****************************/
+/* SKILLS SECTION STYLING */
+/*****************************/
+
+#skills-section > h2 {
+    display: none;
+}
+
+.Skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+}
+
+.Skills ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.Skills li {
+    background-color: var(--light-blue);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.portfolio {
+    display: flex;
+    gap: 1rem;
+}
+
+/*****************************/
+/* PROJECTS SECTION STYLING */
+/*****************************/
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--caramel);
+}
+
+.stack-list {
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+
+/*****************************/
+/* WORK EXPERIENCE SECTION STYLING */
+/*****************************/
+
+#work-experience-section .title {
+    font-weight: bold;
+    color: var(--caramel);
+}
