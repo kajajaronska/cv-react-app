@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cv-react-app/static/css/main.f606ec84.css",
+    "main.js": "/cv-react-app/static/js/main.7d1dad96.js",
+    "static/media/header-photo.jpg": "/cv-react-app/static/media/header-photo.e975ee26e6bbb15fe050.jpg",
+    "index.html": "/cv-react-app/index.html",
+    "main.f606ec84.css.map": "/cv-react-app/static/css/main.f606ec84.css.map",
+    "main.7d1dad96.js.map": "/cv-react-app/static/js/main.7d1dad96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f606ec84.css",
+    "static/js/main.7d1dad96.js"
+  ]
+}
